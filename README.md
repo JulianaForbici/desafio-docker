@@ -2,10 +2,6 @@
   <img src="https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1602020393443-L6M0DGZK4C75DRNR7GZH/Title_Animation.gif" alt="Pizza Banner" width="800"/>
 </p>
 
-<p align="center">
-  <img src="https://cdna.artstation.com/p/assets/images/images/052/445/216/original/calebre-clubpanima3.gif?1659808952" alt="Club Penguin Animation" width="400"/>
-</p>
-
 ---
 
 <p align="center">
@@ -43,3 +39,7 @@ Open your terminal and run these commands:
 curl -O https://raw.githubusercontent.com/JulianaForbici/desafio-docker/main/deploy.sh
 chmod +x deploy.sh
 sudo ./deploy.sh
+
+<p align="center">
+  <img src="https://cdna.artstation.com/p/assets/images/images/052/445/216/original/calebre-clubpanima3.gif?1659808952" alt="Club Penguin Animation" width="400"/>
+</p>
