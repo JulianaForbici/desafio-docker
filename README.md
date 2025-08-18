@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  <img src="https://i.redd.it/some-more-extracted-gifs-for-you-lovelies-3-v0-gwlyt7qo7wgd1.gif?width=2107&auto=webp&s=cc1653eb83a08064b2020438f407fa950a61bf96" alt="Puzzle Mascots" width="600"/>
+  <img src="https://cdna.artstation.com/p/assets/images/images/052/445/216/original/calebre-clubpanima3.gif?1659808952" alt="Club Penguin Animation" width="400"/>
 </p>
 
 ---
@@ -41,7 +41,3 @@ chmod +x deploy.sh
 sudo ./deploy.sh
 
 ```
-
-<p align="center">
-  <img src="https://cdna.artstation.com/p/assets/images/images/052/445/216/original/calebre-clubpanima3.gif?1659808952" alt="Club Penguin Animation" width="400"/>
-</p>
