@@ -40,6 +40,8 @@ curl -O https://raw.githubusercontent.com/JulianaForbici/desafio-docker/main/dep
 chmod +x deploy.sh
 sudo ./deploy.sh
 
+```
+
 <p align="center">
   <img src="https://cdna.artstation.com/p/assets/images/images/052/445/216/original/calebre-clubpanima3.gif?1659808952" alt="Club Penguin Animation" width="400"/>
 </p>
