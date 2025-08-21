@@ -27,7 +27,6 @@ echo "Rebuilding and restarting containers..."
 sudo docker-compose down
 sudo docker-compose up --build -d --force-recreate
 
-# Create cron job to run every 5 minutes (no log redirection)
 crontab -l 2>/dev/null | grep -q "deploy_pizzaria.sh" || (crontab -l 2>/dev/null; echo "*/5 * * * * $PROJECT_DIR/deploy_pizzaria.sh") | cro>
 
 echo "Finished."
