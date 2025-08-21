@@ -2,9 +2,8 @@
 
 set -e
 
-PROJECT_DIR="/tmp/desafio-docker"
 REPO_URL="https://github.com/JulianaForbici/desafio-docker.git"
-LOG_FILE="/tmp/pizzaria-deploy.log" 
+PROJECT_DIR="/desafio-docker"
 
 echo "Starting..."
 
