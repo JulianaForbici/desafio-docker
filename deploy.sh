@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -e
 
 REPO_URL="https://github.com/JulianaForbici/desafio-docker.git"
 PROJECT_DIR="/desafio-docker"
