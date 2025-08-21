@@ -27,7 +27,6 @@ echo "Rebuilding and restarting containers..."
 sudo docker-compose down
 sudo docker-compose up --build -d --force-recreate
 
-crontab -l 2>/dev/null | grep -q "desafio-docker.sh" || \
-  (crontab -l 2>/dev/null; echo "*/5 * * * * $PROJECT_DIR/desafio-docker.sh") | crontab -
+crontab -l 2>/dev/null | grep -q "desafio-docker.sh" || (crontab -l 2>/dev/null; echo "*/5 * * * * $PROJECT_DIR/desafio-docker.sh") | crontab -
 
 echo "Finished."
