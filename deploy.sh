@@ -35,9 +35,9 @@ cd "$PROJECT_DIR"
 
 if [ "$CHANGED" = "1" ]; then
     echo "[INFO] Rebuilding and restarting containers..."
-    docker compose down >> "$LOG_FILE" 2>&1
-    docker compose build --no-cache >> "$LOG_FILE" 2>&1
-    docker compose up -d >> "$LOG_FILE" 2>&1
+    docker-compose down >> "$LOG_FILE" 2>&1
+    docker-compose build --no-cache >> "$LOG_FILE" 2>&1
+    docker-compose up -d >> "$LOG_FILE" 2>&1
 else
     echo "[INFO] No rebuild needed."
 fi
