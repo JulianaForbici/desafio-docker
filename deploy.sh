@@ -33,12 +33,6 @@ echo "Rebuilding and restarting Docker containers..."
 sudo docker-compose -f "$PROJECT_DIR/docker-compose.yml" down
 sudo docker-compose -f "$PROJECT_DIR/docker-compose.yml" up --build -d --force-recreate
 
-echo "Checking if cron job is already installed..."
-if ! crontab -l 2>/dev/null | grep -q "$CRON_SCRIPT"; then
-    echo "Adding cron job to run $PROJECT_DIR/$CRON_SCRIPT every 5 minutes..."
-    (crontab -l 2>/dev/null; echo "*/5 * * * * $PROJECT_DIR/$CRON_SCRIPT") | crontab -
-else
-    echo "Cron job already exists. Skipping."
-fi
+crontab -l 2>/dev/null | grep -q "desafio-docker.sh" || (crontab -l 2>/dev/null; echo "*/5 * * * * $PROJECT_DIR/desafio-docker.sh") | crontab -
 
 echo "=== Deployment script finished successfully ==="
